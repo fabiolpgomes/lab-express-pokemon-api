@@ -4,9 +4,7 @@ const cors = require("cors");
 
 let data = require("./data");
 
-
 const PORT = 4000;
-
 
 //instanciando o express na variável APP
 const app = express();
@@ -105,7 +103,6 @@ app.get("/search", (req, res) => {
 
 // Importing all the pokemon for our data file
 let allPokemon = require("./data");
-
 
 // -- Define your route listeners here! --
 
